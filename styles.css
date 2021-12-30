@@ -1,0 +1,54 @@
+
+body{
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 208, 194);
+
+    /* Propiedades flexbox: */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 1px;
+}
+
+
+header{
+    border-style: solid;
+    background-color: rgb(240, 243, 223);
+}
+
+
+section.principal{
+    border-style: solid;
+    background-color: rgb(201, 190, 187);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    
+    /* Propiedades flexbox: */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+
+.news{
+    border-style: none;
+    background-color: rgb(240, 240, 240);
+    margin: 2px;
+    padding: 2px;
+    width: 67%;
+}
+
+
+.videos{
+    border-style: none;
+    background-color: rgb(207, 209, 198);
+    margin: 2px;
+    padding: 2px;
+    width: 28%; 
+}
