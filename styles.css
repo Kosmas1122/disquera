@@ -1,24 +1,70 @@
 
-body{
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(218, 208, 194);
+* {box-sizing: border-box;}
 
-    /* Propiedades flexbox: */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+header {
+    height: 185px;
+    background-color: rgb(249, 249, 249);
+    padding: 10px;
+    font-size: 30px;
+    color: black;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 10px;
-    column-gap: 1px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    margin: 5;
+    padding: 5;
+    width: 157px;
+    height: 171px;
+}
+
+#titulo {
+    margin: 15px 10px 0px 5px;
+    padding: 1px 10px 1px 5px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px 15px 5px 15px;
+    padding: 0px;
+    
+}
+
+li a {
+    float: left;
+    margin: 5px 15px 5px 15px;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #eb7eb8;
+    border-radius: 5px;
+    margin: 5px 15px 5px 15px;
+}
+
+hr {
+    position: absolute;
+    height: 4px;
+    color: black;
+    background-color: black;
+    width: 90%;
+    top: 138px;
+    left: 35px;
 }
 
 
-header{
-    border-style: solid;
-    background-color: rgb(240, 243, 223);
-}
+
+
+
+
 
 
 section.principal{
