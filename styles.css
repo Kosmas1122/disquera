@@ -109,14 +109,8 @@ main {
     flex-wrap: wrap;
 }
 
-footer img {
-    float:left;
-    margin-left: 0;
-}
-
-figure {
-    margin-left: 0;
-}
+figure {margin-left: 0;}
+figure img {float:left;}
 
 figure a {
     float: left;
